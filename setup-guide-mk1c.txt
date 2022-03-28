@@ -95,8 +95,8 @@ sudo /opt/ont/minknow/bin/config_editor --conf application \
   --filename /opt/ont/minknow/conf/app_conf \
   --set guppy.server_config.server_executable="/usr/bin/guppy_basecall_server" \
   --set guppy.client_executable="/usr/bin/guppy_basecall_client" \
-  --set guppy.barcoding_executable="/usr/bin/guppy_basecall_barcoder" \
-  --set guppy.alignment_executable="/usr/bin/guppy_basecall_aligner" \
+  --set guppy.barcoding_executable="/usr/bin/guppy_barcoder" \
+  --set guppy.alignment_executable="/usr/bin/guppy_aligner" \
   --set guppy.minimap_executable="/usr/bin/minimap2" 
 # NOTE: you can adjust chunks_per_runner depending on you available GPU, the default is 48, we've found 64 to be 
 # a good spot for the Jetson Xavier NX
